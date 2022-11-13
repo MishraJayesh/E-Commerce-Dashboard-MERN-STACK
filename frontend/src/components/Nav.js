@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import logo from './assets/logo.jpg';
+import logo from './Assets/logo.jpg';
 
 const Nav = () => {
     const auth = localStorage.getItem('user');
