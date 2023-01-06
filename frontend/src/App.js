@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter >
         <Nav />
         <Routes>
-          
+
           <Route element={<PrivateComponent />}>
             <Route path="/" element={<ProductList />} />
             <Route path="/add" element={<AddProduct />} />
